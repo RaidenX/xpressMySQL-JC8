@@ -1,0 +1,38 @@
+$ git --version 
+//Check git version
+
+$ git config --global user.name raidenx 
+//Set username
+
+$ git config --global user.email obbeyyusuf.p@gmail.com
+//Set email
+
+$ git config user.name 
+//Check username
+
+
+$ git init 
+// Inisiasi folder yang akan di-upload ke GitHub
+
+$ git add . 
+// Memasukkan file ke repository folder lokal gitHub yang akan di commit
+
+$ git commit -m "First commit" 
+// proses "commit" agar nantinya bisa dipantau setiap perubahan di dalam masing-masing file
+
+$ git remote add origin remote repository URL 
+// Menghubungkan antara repositori lokal ke repositori GitHub
+
+$ git remote -v 
+// Verifikasi remote URL yang baru dihubungkan
+
+$ git push origin master 
+// Mengirim perubahan file dalam repositori lokal ke repositori GitHub
+
+$ git push -f origin master 
+//Jika terdapat pesan error #! [rejected]
+
+
+
+
+https://git.heroku.com/expressmysqldb.git
