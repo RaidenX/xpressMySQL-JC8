@@ -1,10 +1,10 @@
 const mysql = require('mysql')
 
 const conn = mysql.createConnection({
-    user: 'expressmysqluser',
-    password: '11223344@@##',
+    user: 'devuser2',
+    password: 'Mysql123',
     host: 'db4free.net',
-    database: 'expressmysqldb',
+    database: 'rc8expressmysql',
     port: '3306'
 })
 

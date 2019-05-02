@@ -1,16 +1,43 @@
 const express = require('express')
 const userRouter = require('./routers/userRouter')
-const taskRouter = require('./routers/taskRouter')
+const tasksRouter = require('./routers/taskRouter')
 
 const app = express()
 const port = process.env.PORT
 
 app.get('/', (req, res) => {
-    res.send(`<h1>API Running Heroku port ${Port}</h1>`)
+    res.send(`<h1>API Running on Heroku port ${port}</h1>`)
 })
 
 app.use(express.json())
 app.use(userRouter)
+app.use(tasksRouter)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 app.listen(port, () => {
